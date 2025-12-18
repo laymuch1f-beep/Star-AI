@@ -4,7 +4,6 @@
   "description": "Human-like Voice Agent with Twilio",
   "main": "dist/index.js",
   "scripts": {
-    "prebuild": "npm ci",
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts"
